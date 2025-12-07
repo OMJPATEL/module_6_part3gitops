@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ghcr.io/omjpatel/devops_automation-backend:d2d9bcd7ad6e916ada96965a6cc8f0d3c57f5f51
+          image: ghcr.io/omjpatel/devops_automation-backend:961a263e50df7bce64633f8b917c46c10d1134cb
           imagePullPolicy: Always
           ports:
             - name: http
