@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: studentportfolio
-          image: ghcr.io/omjpatel/devops_automation-studentportfolio:latest
+          image: ghcr.io/omjpatel/devops_automation-studentportfolio:d2d9bcd7ad6e916ada96965a6cc8f0d3c57f5f51
           imagePullPolicy: Always
           ports:
             - name: http
